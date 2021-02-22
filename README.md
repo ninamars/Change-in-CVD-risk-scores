@@ -44,7 +44,7 @@ These interventions, if successful, would prolong diseases free life by 0.7 year
 
 We chose to use SCORE and ASCVD risk score because they are widely used risk scores in primary prevention. They provide 10-year risk for cardiovascular diseases and their characteristics are described here: 
 
-| Characteristic | ASCVD | SCORE |
+|  | ASCVD | SCORE |
 | -------------- |-------------- | -------------- |
 | Participants	| 4 pooled prospective studies	| 12 prospective studies
 | Time period	| 1968-1993	| 1972-1991|
@@ -96,6 +96,7 @@ Cardiovascular disease-free life-years for both SCORE and ASCVD were estimated a
 ## Authors
 
 **Nina Mars**
+
 **Joni Lindbohm**
 
 
