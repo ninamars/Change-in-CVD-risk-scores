@@ -65,12 +65,12 @@ Cardiovascular disease-free life-years for both SCORE and ASCVD were estimated a
 ## References 
 
 
-### The original SCORE and ASCVD publications are:
+#### The original SCORE and ASCVD publications are:
 * Conroy RM, Pyorala K, Fitzgerald AP, et al. Estimation of ten-year risk of fatal cardiovascular disease in Europe: the SCORE project. Eur Heart J 2003; 24(11): 987-1003. doi:S0195668X03001143 [pii].
 * Goff DC,Jr, Lloyd-Jones DM, Bennett G, et al. 2013 ACC/AHA guideline on the assessment of cardiovascular risk: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines. Circulation 2014; 129(25 Suppl 2): S49-73. doi:10.1161/01.cir.0000437741.48606.98 [doi].
 
 
-### The intervention effects were acquired from:
+#### The intervention effects were acquired from:
 * Eckel RH, Jakicic JM, Ard JD, et al. 2013 AHA/ACC guideline on lifestyle management to reduce cardiovascular risk: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines. J Am Coll Cardiol 2014; 63(25 Pt B): 2960-84. doi:10.1016/j.jacc.2013.11.003 [doi].
 * Arnett DK, Blumenthal RS, Albert MA, et al. 2019 ACC/AHA Guideline on the Primary Prevention of Cardiovascular Disease: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. Circulation 2019; 140(11): e596-646. doi:10.1161/CIR.0000000000000678 [doi].
 * Mach F, Baigent C, Catapano AL, et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk. Eur Heart J 2020; 41(1): 111-88. doi:10.1093/eurheartj/ehz455 [doi].
