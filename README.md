@@ -58,7 +58,12 @@ We chose to use SCORE and ASCVD risk score because they are widely used risk sco
 
 ### Cardiovascular disease-free life-years
 
-Cardiovascular disease-free life-years for both SCORE and ASCVD were estimated as years free of stroke (ICD-10 codes under I60, I61, I63, and I64; ICD-9 codes 430, 431, 434, and 436), myocardial infarction (ICD-10 codes under I21; ICD-9 codes under 410), heart failure (ICD10-codes under I50), definite angina (ICD-10 codes under I20; ICD-9 codes under 410, both verified from medical records), peripheral artery disease (ICD-10 codes I70·2, I73·3, I73·9, I74·3-5, E10·5, E11·5, E12·5, E13·5, E14·5; ICD-9 codes 250·7, 440·2, 440·4, 443·8-9, 444·2, 444·81), coronary artery bypass graft, or percutaneous coronary intervention. We chose to use a broad combination of incident non-fatal and fatal cardiovascular diseases  as our primary outcome for cardiovascular disease-free life-years because knowledge of preventing any of these diseases may be the preferred optio.
+Cardiovascular disease-free life-years for both SCORE and ASCVD were estimated as years free of stroke (ICD-10 codes under I60, I61, I63, and I64; ICD-9 codes 430, 431, 434, and 436), myocardial infarction (ICD-10 codes under I21; ICD-9 codes under 410), heart failure (ICD10-codes under I50), definite angina (ICD-10 codes under I20; ICD-9 codes under 410, both verified from medical records), peripheral artery disease (ICD-10 codes I70·2, I73·3, I73·9, I74·3-5, E10·5, E11·5, E12·5, E13·5, E14·5; ICD-9 codes 250·7, 440·2, 440·4, 443·8-9, 444·2, 444·81), coronary artery bypass graft, or percutaneous coronary intervention. We chose to use a broad combination of incident non-fatal and fatal cardiovascular diseases  as our primary outcome for cardiovascular disease-free life-years because knowledge of preventing any of these diseases may be the preferred option.
+
+
+### Disclaimer
+
+The contents of this app, including (without limitation) all data, information, text, graphics, links and other materials are provided as a convenience to app users and are to be used only for informational purposes. We do not take responsibility for the decisions taken by the user based solely on the information provided in this app.
 
 
 
