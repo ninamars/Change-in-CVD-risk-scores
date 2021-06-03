@@ -54,6 +54,7 @@ We chose to use SCORE and ASCVD risk score because they are widely used risk sco
 | Variables included	| Age, sex, race (white or other/African American), total cholesterol, HDL-C, SBP, antihypertensive treatment, DM, smoking + interaction terms when appropriate|	Sex, age, total cholesterol, SBP, smoking status. |
 | Outcomes	| Non-fatal myocardial infarction or coronary heart disease death or fatal or nonfatal stroke	|  Fatal following diseases: hypertension, hypertensive heart disease, hypertensive chronic kidney disease, hypertensive heart disease, acute venous embolism or thrombosis of deep vessels of lower extremity, myocardial infarction, angina pectoris, ischemic heart disease, conduction disorders, cardiac dysrhythmias, heart failure, intracranial haemorrhage, ischemic stroke, transient cerebral ischemia, atherosclerosis, aortic aneurysm and dissection, peripheral vascular disease, death within 24 h of symptom onset  (71% of all events were coronary heart diseases) |
 
+In our study, we had a limited number of other than White participants. Because of this, we were not able to reliably estimate CVD-free life-years for other ethnicities and use only coefficients for White individuals in this online tool.
 
 
 ### Cardiovascular disease-free life-years
