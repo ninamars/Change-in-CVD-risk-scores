@@ -37,7 +37,7 @@ The second example illustrate how the calculator can be used to facilitate plann
 | A 5-kilogram reduction in weight | -5.5 | -0.5 |
 | Total | -25.2 | -0.8 |
 
-These interventions, if successful, would prolong diseases free life by 0.7 years and lead to a 4.5% risk in the follow-up visit next year, or a 6.3% risk in the next five years after taking into account ageing. As such, the targeted lifestyle change would be sufficient to postpone preventive medication. 
+These interventions, if successful, would prolong diseases free life by 0.7 years and lead to a 4.5% risk in the follow-up visit next year, or a 6.3% risk in the next five years after taking into account ageing. As such, the targeted lifestyle change would be sufficient to postpone preventive medication. As HDL cholesterol is unlikely a causal risk factor for CVD, the intervention section does not include changes in HDL cholesterol.
 
 
 ### 10-year risk of cardiovascular diseases
