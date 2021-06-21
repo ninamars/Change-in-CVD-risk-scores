@@ -3,7 +3,6 @@
 #-------------------------------------------------------------------------------------------
 #-------------------------------------------------------------------------------------------
 
-# Version 1.0 
 # February 2021
 #
 # App for estimating how change in SCORE and ASCVD algorithms translate to life years 
@@ -68,8 +67,8 @@ ui <- navbarPage(title = span(strong("Select one of two calculators:"),
                               
                               prettyRadioButtons("sex", "Sex:", choices = c("Male" = "male", "Female" = "female"), selected = NULL),
                               
-                              fluidRow(column(6, h5(strong("Previous visit:"))),
-                                       column(6, h5(strong("Current visit:")))),
+                              fluidRow(column(6, h5(strong("Insert values for\nprevious visit:"))),
+                                       column(6, h5(strong("Insert values for\ncurrent visit:")))),
                                 
                               fluidRow(
                                 column(6, numericInput("age0", "Age", value = 50, step = NA, width = NULL)),
@@ -80,16 +79,16 @@ ui <- navbarPage(title = span(strong("Select one of two calculators:"),
                                 column(6, prettyRadioButtons("smok1", "Smoking", choices = c("No" = 0, "Yes" = 1), selected = NULL))),
                               
                               fluidRow(
-                                column(6, numericInput("sbp0", "Systolic blood pressure", value = 130, step = NA, width = NULL)),
-                                column(6, numericInput("sbp1", "Systolic blood pressure", value = 130, step = NA, width = NULL))),
+                                column(6, numericInput("sbp0", "Systolic blood pressure\n(mmHg)", value = 130, step = NA, width = NULL)),
+                                column(6, numericInput("sbp1", "Systolic blood pressure\n(mmHg)", value = 130, step = NA, width = NULL))),
                               
                               fluidRow(
-                                column(6, numericInput("chol0", "Total cholesterol", value = 5.5, step = NA, width = NULL)),
-                                column(6, numericInput("chol1", "Total cholesterol", value = 5.5, step = NA, width = NULL))),
+                                column(6, numericInput("chol0", "Total cholesterol (mmol/L)", value = 5.5, step = NA, width = NULL)),
+                                column(6, numericInput("chol1", "Total cholesterol (mmol/L)", value = 5.5, step = NA, width = NULL))),
                               
                               fluidRow(
-                                column(6, numericInput("hdl0", "HDL", value = 2.0, step = NA, width = NULL)),
-                                column(6, numericInput("hdl1", "HDL", value = 2.0, step = NA, width = NULL))),
+                                column(6, numericInput("hdl0", "High-density lipoprotein cholesterol (mmol/L)", value = 2.0, step = NA, width = NULL)),
+                                column(6, numericInput("hdl1", "High-density lipoprotein cholesterol (mmol/L)", value = 2.0, step = NA, width = NULL))),
                               
                               fluidRow(
                                 column(6, prettyRadioButtons("bpmed0", "Medication for\nhigh blood\npressure", choices = c("No" = 0, "Yes" = 1), selected = NULL)),
@@ -112,23 +111,23 @@ ui <- navbarPage(title = span(strong("Select one of two calculators:"),
                             
                             sidebarPanel(
                               
-                              h4("Current visit: "),
+                              h4("1. Insert values for current visit: "),
                               prettyRadioButtons("sex_lcc", "Sex:", choices = c("Male" = "male", "Female" = "female"), selected = NULL),
                               numericInput("age_lcc", "Age", value = 50, min = NA, max = NA, step = NA, width = NULL),
                               prettyRadioButtons("smok_lcc", "Smoking", choices = c("No" = 0, "Yes" = 1), selected = NULL),
-                              numericInput("sbp_lcc", "SBP", value = 130, min = NA, max = NA, step = NA, width = NULL),
-                              numericInput("chol_lcc", "TC", value = 5.5, min = NA, max = NA, step = NA, width = NULL),
-                              numericInput("hdl_lcc", "HDL", value = 1.2, min = NA, max = NA, step = NA, width = NULL),
+                              numericInput("sbp_lcc", "Systolic blood pressure (mmHg)", value = 130, min = NA, max = NA, step = NA, width = NULL),
+                              numericInput("chol_lcc", "Total cholesterol (mmol/L)", value = 5.5, min = NA, max = NA, step = NA, width = NULL),
+                              numericInput("hdl_lcc", "High-density lipoprotein cholesterol (mmol/L)", value = 1.2, min = NA, max = NA, step = NA, width = NULL),
                               prettyRadioButtons("bpmed_lcc", "Medication for high blood pressure", choices = c("No" = 0, "Yes" = 1), selected = NULL),
                               prettyRadioButtons("diab_lcc", "Diabetes", choices = c("No" = 0, "Yes" = 1), selected = NULL),
                               h4(""),
                               hr(style = "border-top: 1px solid #B6B6B6;"),
-                              prettyRadioButtons("time_goal", "Goal for timeline:",
+                              prettyRadioButtons("time_goal", h4("2. Select goal for timeline of lifestyle change:"),
                                                  choices = c("1 year" = 1, "2 years" = 2, "3 years" = 3, "4 years" = 4, "5 years" = 5), selected = 5),
                               hr(style = "border-top: 1px solid #B6B6B6;"),
-                              h4("Select lifestyle changes: "),
+                              h4("3. Select lifestyle changes: "),
                               h5(strong("Chages in medications:")),
-                              prettyRadioButtons("int_lipidlowering_med", "Start lipid-lowering medication",
+                              prettyRadioButtons("int_lipidlowering_med", "Start lipid-lowering statin medication",
                                                  c("No statin" = "none",
                                                    "Low intensity" = "low",
                                                    "Moderate intensity" = "mod",
@@ -168,7 +167,8 @@ ui <- navbarPage(title = span(strong("Select one of two calculators:"),
                             
                             mainPanel(tabsetPanel(type = "tabs",
                                                   tabPanel("SCORE", plotOutput("scoreplot2", height = "500px")),
-                                                  tabPanel("ASCVD", plotOutput("ascvdplot2", height = "500px"))))
+                                                  tabPanel("ASCVD", plotOutput("ascvdplot2", height = "500px"))),
+                                      )
                           )
                  )
 )
