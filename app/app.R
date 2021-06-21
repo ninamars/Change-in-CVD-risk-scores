@@ -10,9 +10,6 @@
 #
 # © Nina Mars & Joni Lindbohm
 #
-# nina.mars@helsinki.fi
-# joni.lindbohm@helsinki.fi
-
 # No individual-level data is deposited with the app nor stored when using the app
 
 #-------------------------------------------------------------------------------------------
