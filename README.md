@@ -1,8 +1,7 @@
 # Change in risk score as a predictor of future cardiovascular disease: analyses of resurvey data from the British Whitehall II prospective cohort study
 
 These are the instructions for the Online tool presented in publication:
-Change in risk score as a predictor of future cardiovascular disease: analyses of resurvey data from the British Whitehall II prospective cohort study, Lindbohm et al. 2021.
-
+Change in risk score as a predictor of future cardiovascular disease: analyses of resurvey data from the British Whitehall II prospective cohort study, Lindbohm JV, Sipilä PN, Mars N, et al. Lancet Digital Health 2021.
 
 ## Using the calculator
 
@@ -97,11 +96,12 @@ The contents of this app, including (without limitation) all data, information, 
 * Cornelissen VA, Smart NA. Exercise training for blood pressure: a systematic review and meta-analysis. J Am Heart Assoc 2013; 2(1): e004473. doi:10.1161/JAHA.112.004473 [doi].
 * Zomer E, Gurusamy K, Leach R, et al. Interventions that cause weight loss and the impact on cardiovascular risk factors: a systematic review and meta-analysis. Obes Rev 2016; 17(10): 1001-11. doi:10.1111/obr.12433 [doi].
 * Williams B, Mancia G, Spiering W, et al. 2018 ESC/ESH Guidelines for the management of arterial hypertension. Eur Heart J 2018; 39(33): 3021-104. doi:10.1093/eurheartj/ehy339 [doi].
+* Voight BF, Peloso GM, Orho-Melander M, et al. Plasma HDL cholesterol and risk of myocardial infarction: a mendelian randomisation study. Lancet 2012; 380(9841): 572-580. doi:10.1016/S0140-6736(12)60312-2 [doi].
 
 
 ## Authors
 
-**Nina Mars**
+**Nina Mars** 
 
 **Joni Lindbohm**
 
